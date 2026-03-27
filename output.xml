@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.5 on win32)" generated="2026-03-27T21:40:44.399127" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Hello With Python" source="C:\Users\marek\Desktop\RobotFrameworkPractice\tests\test_hello_with_python.robot">
+<test id="s1-t1" name="Test Python Keyword" line="5">
+<kw name="Say Hello" owner="MyKeywords">
+<msg time="2026-03-27T21:40:44.436627" level="INFO">${greeting} = Hello, Marek!</msg>
+<var>${greeting}</var>
+<arg>Marek</arg>
+<doc>Keyword, który zwraca powitanie dla podanej osoby</doc>
+<status status="PASS" start="2026-03-27T21:40:44.436127" elapsed="0.000500"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-03-27T21:40:44.437127" level="INFO">Hello, Marek!</msg>
+<arg>${greeting}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-03-27T21:40:44.436627" elapsed="0.000500"/>
+</kw>
+<status status="PASS" start="2026-03-27T21:40:44.435627" elapsed="0.002000"/>
+</test>
+<status status="PASS" start="2026-03-27T21:40:44.400634" elapsed="0.037493"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Hello With Python" id="s1" pass="1" fail="0" skip="0">Test Hello With Python</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
